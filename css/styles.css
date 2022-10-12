@@ -1,3 +1,17 @@
+:root{
+    --primary-fond: 'Open Sans', sans-serif;
+    --secondary-fond: 'Relaway',sans-serif;
+    --primary-text-color-theme-dark: #9da4bd;
+    --secondary-text-color-theme-dark: #ffffff;
+    --primary-text-color-theme-light: #555555;
+    --secondary-text-color-theme-light: #303030;
+    --accent-color: #FF6C00;
+}
+
+body{
+font-family: var(--primary-fond);
+}
+
 .link {
     text-decoration: none;
 }
@@ -8,4 +22,49 @@
 
 img {
     display: block;
+}
+
+button {
+    cursor: pointer;
+}
+
+.menu__link{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.menu__link:hover,
+.menu__link:focus{
+    color: var(--accent-color);
+}
+
+.contact-phone-number{
+font-weight: 600;
+font-size: 12px;
+line-height: 1.33;
+letter-spacing: 0.1em;
+color: #FFFFFF;
+}
+
+.contact-phone-number:hover,
+.contact-phone-number:focus {
+    color: var(--accent-color);
+}
+
+.modal-open-btn{
+font-weight: 600;
+font-size: 12px;
+line-height: 1.33;
+letter-spacing: 0.09em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.modal-open-btn:hover,
+.modal-open-btn:focus{
+    background-color: var(--accent-color);
+    color: #FFFFFF;
 }
